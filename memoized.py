@@ -1,3 +1,7 @@
+#-*-encoding=utf-8-*-
+"""
+Universal Memoization Decorator module
+"""
 import functools
 import pickle
 
