@@ -3,7 +3,10 @@
 Universal Memoization Decorator module
 """
 import functools
-import pickle
+try:
+    import cPickle as pickle
+except ImportError:
+    import pickle
 
 
 def memoize_all(func):
